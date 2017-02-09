@@ -1,0 +1,22 @@
+.tooltip {
+  &.bottom {
+    font-size: 21px;
+  }
+
+  &.l {
+    padding: 7px 14px;
+    font-size: 16px;
+  }
+
+  &.green {
+    background: #009688;
+
+    &:before {
+      border-color: #009688 transparent transparent transparent;
+    }
+  }
+}
+
+/* __ tooltip size: l for large __ */
+
+/* __ tooltip color: green __ */

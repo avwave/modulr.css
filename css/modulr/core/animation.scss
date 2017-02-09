@@ -9,9 +9,7 @@
 
 @charset "UTF-8";
 
-.slow,
-.animate-children .slow,
-.hover-animate-children .slow{
+.slow, .animate-children .slow, .hover-animate-children .slow {
   -webkit-animation-duration: 2.2s;
   -moz-animation-duration: 2.2s;
   animation-duration: 2.2s;
@@ -20,9 +18,8 @@
   animation-fill-mode: both;
   -webkit-backface-visibility: hidden;
 }
-.normal,
-.animate-children .normal,
-.hover-animate-children .normal{
+
+.normal, .animate-children .normal, .hover-animate-children .normal {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   animation-duration: 1s;
@@ -31,9 +28,8 @@
   animation-fill-mode: both;
   -webkit-backface-visibility: hidden;
 }
-.medium,
-.animate-children .medium,
-.hover-animate-children .medium{
+
+.medium, .animate-children .medium, .hover-animate-children .medium {
   -webkit-animation-duration: 0.6s;
   -moz-animation-duration: 0.6s;
   animation-duration: 0.6s;
@@ -42,9 +38,8 @@
   animation-fill-mode: both;
   -webkit-backface-visibility: hidden;
 }
-.fast,
-.animate-children .fast,
-.hover-animate-children .fast{
+
+.fast, .animate-children .fast, .hover-animate-children .fast {
   -webkit-animation-duration: 0.3s;
   -moz-animation-duration: 0.3s;
   animation-duration: 0.3s;
@@ -54,9 +49,7 @@
   -webkit-backface-visibility: hidden;
 }
 
-.faster,
-.animate-children .faster,
-.hover-animate-children .faster{
+.faster, .animate-children .faster, .hover-animate-children .faster {
   -webkit-animation-duration: 0.15s;
   -moz-animation-duration: 0.15s;
   animation-duration: 0.15s;
@@ -69,20 +62,26 @@
 /* __ fade in __ */
 
 @-webkit-keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
-.fade-in,
-.mouseleave-fade-in,
-.hover-fade-in:hover,
-.hover-animate-children:hover .mouseenter-fade-in,
-.animate-children .animate-fade-in{
+.fade-in, .mouseleave-fade-in, .hover-fade-in:hover, .hover-animate-children:hover .mouseenter-fade-in, .animate-children .animate-fade-in {
   -webkit-animation-name: fadeIn;
   -moz-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -91,20 +90,26 @@
 /* __ fade out __ */
 
 @-webkit-keyframes fadeOut {
-  0% {opacity: 1;}
-  100% {opacity: 0;}
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeOut {
-  0% {opacity: 1;}
-  100% {opacity: 0;}
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
-.fade-out,
-.mouseleave-fade-out,
-.hover-fade-out:hover,
-.hover-animate-children:hover .mouseenter-fade-out,
-.animate-children .animate-fade-out{
+.fade-out, .mouseleave-fade-out, .hover-fade-out:hover, .hover-animate-children:hover .mouseenter-fade-out, .animate-children .animate-fade-out {
   -webkit-animation-name: fadeOut;
   -moz-animation-name: fadeOut;
   animation-name: fadeOut;
@@ -142,16 +147,11 @@
   }
 }
 
-.fade-in-down,
-.mouseleave-fade-in-down,
-.hover-fade-in-down:hover,
-.hover-animate-children:hover  .mouseenter-fade-in-down,
-.animate-children .animate-fade-in-down{
+.fade-in-down, .mouseleave-fade-in-down, .hover-fade-in-down:hover, .hover-animate-children:hover .mouseenter-fade-in-down, .animate-children .animate-fade-in-down {
   -webkit-animation-name: fadeInDown;
   -moz-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
-
 
 /*_ fade out down _*/
 
@@ -185,16 +185,11 @@
   }
 }
 
-.fade-out-down,
-.mouseleave-fade-out-down,
-.hover-fade-out-down:hover,
-.hover-animate-children:hover .mouseenter-fade-out-down,
-.animate-children .animate-fade-out-down{
+.fade-out-down, .mouseleave-fade-out-down, .hover-fade-out-down:hover, .hover-animate-children:hover .mouseenter-fade-out-down, .animate-children .animate-fade-out-down {
   -webkit-animation-name: fadeOutDown;
   -moz-animation-name: fadeOutDown;
   animation-name: fadeOutDown;
 }
-
 
 /*_fade in from bottom_*/
 
@@ -228,11 +223,7 @@
   }
 }
 
-.fade-in-up,
-.mouseleave-fade-in-up,
-.hover-fade-in-up:hover,
-.hover-animate-children:hover .mouseenter-fade-in-up,
-.animate-children .animate-fade-in-up{
+.fade-in-up, .mouseleave-fade-in-up, .hover-fade-in-up:hover, .hover-animate-children:hover .mouseenter-fade-in-up, .animate-children .animate-fade-in-up {
   -webkit-animation-name: fadeInUp;
   -moz-animation-name: fadeInUp;
   animation-name: fadeInUp;
@@ -270,16 +261,11 @@
   }
 }
 
-.fade-out-up,
-.mouseleave-fade-out-up,
-.hover-fade-out-up:hover,
-.hover-animate-children:hover .mouseenter-fade-out-up,
-.animate-children .animate-fade-out-up{
+.fade-out-up, .mouseleave-fade-out-up, .hover-fade-out-up:hover, .hover-animate-children:hover .mouseenter-fade-out-up, .animate-children .animate-fade-out-up {
   -webkit-animation-name: fadeOutUp;
   -moz-animation-name: fadeOutUp;
   animation-name: fadeOutUp;
 }
-
 
 /*_fade in from left_*/
 
@@ -313,11 +299,7 @@
   }
 }
 
-.fade-in-left,
-.mouseleave-fade-in-left,
-.hover-fade-in-left:hover,
-.hover-animate-children:hover .mouseenter-fade-in-left,
-.animate-children .animate-fade-in-left{
+.fade-in-left, .mouseleave-fade-in-left, .hover-fade-in-left:hover, .hover-animate-children:hover .mouseenter-fade-in-left, .animate-children .animate-fade-in-left {
   -webkit-animation-name: fadeInLeft;
   -moz-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
@@ -355,16 +337,11 @@
   }
 }
 
-.fade-out-left,
-.mouseleave-fade-out-left,
-.hover-fade-out-left:hover,
-.hover-animate-children:hover .mouseenter-fade-out-left,
-.animate-children .animate-fade-out-left{
+.fade-out-left, .mouseleave-fade-out-left, .hover-fade-out-left:hover, .hover-animate-children:hover .mouseenter-fade-out-left, .animate-children .animate-fade-out-left {
   -webkit-animation-name: fadeOutLeft;
   -moz-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft;
 }
-
 
 /*_fade in from right_*/
 
@@ -398,11 +375,7 @@
   }
 }
 
-.fade-in-right,
-.mouseleave-fade-in-righ,
-.hover-fade-in-right:hover,
-.hover-animate-children:hover .mouseenter-fade-in-right,
-.animate-children .animate-fade-in-right{
+.fade-in-right, .mouseleave-fade-in-righ, .hover-fade-in-right:hover, .hover-animate-children:hover .mouseenter-fade-in-right, .animate-children .animate-fade-in-right {
   -webkit-animation-name: fadeInRight;
   -moz-animation-name: fadeInRight;
   animation-name: fadeInRight;
@@ -440,16 +413,11 @@
   }
 }
 
-.fade-out-right,
-.mouseleave-fade-out-right,
-.hover-fade-out-right:hover,
-.hover-animate-children:hover .mouseenter-fade-out-right,
-.animate-children .animate-fade-out-right{
+.fade-out-right, .mouseleave-fade-out-right, .hover-fade-out-right:hover, .hover-animate-children:hover .mouseenter-fade-out-right, .animate-children .animate-fade-out-right {
   -webkit-animation-name: fadeOutRight;
   -moz-animation-name: fadeOutRight;
   animation-name: fadeOutRight;
 }
-
 
 /*_move in from top _*/
 
@@ -479,16 +447,11 @@
   }
 }
 
-.move-in-down,
-.mouseleave-move-in-down,
-.hover-move-in-down:hover,
-.hover-animate-children:hover  .mouseenter-move-in-down,
-.animate-children .animate-move-in-down{
+.move-in-down, .mouseleave-move-in-down, .hover-move-in-down:hover, .hover-animate-children:hover .mouseenter-move-in-down, .animate-children .animate-move-in-down {
   -webkit-animation-name: moveInDown;
   -moz-animation-name: moveInDown;
   animation-name: moveInDown;
 }
-
 
 /*_ move out down _*/
 
@@ -518,16 +481,11 @@
   }
 }
 
-.move-out-down,
-.mouseleave-move-out-down,
-.hover-move-out-down:hover,
-.hover-animate-children:hover .mouseenter-move-out-down,
-.animate-children .animate-move-out-down{
+.move-out-down, .mouseleave-move-out-down, .hover-move-out-down:hover, .hover-animate-children:hover .mouseenter-move-out-down, .animate-children .animate-move-out-down {
   -webkit-animation-name: moveOutDown;
   -moz-animation-name: moveOutDown;
   animation-name: moveOutDown;
 }
-
 
 /*_move in from bottom_*/
 
@@ -557,11 +515,7 @@
   }
 }
 
-.move-in-up,
-.mouseleave-move-in-up,
-.hover-move-in-up:hover,
-.hover-animate-children:hover .mouseenter-move-in-up,
-.animate-children .animate-move-in-up{
+.move-in-up, .mouseleave-move-in-up, .hover-move-in-up:hover, .hover-animate-children:hover .mouseenter-move-in-up, .animate-children .animate-move-in-up {
   -webkit-animation-name: moveInUp;
   -moz-animation-name: moveInUp;
   animation-name: moveInUp;
@@ -595,16 +549,11 @@
   }
 }
 
-.move-out-up,
-.mouseleave-move-out-up,
-.hover-move-out-up:hover,
-.hover-animate-children:hover .mouseenter-move-out-up,
-.animate-children .animate-move-out-up{
+.move-out-up, .mouseleave-move-out-up, .hover-move-out-up:hover, .hover-animate-children:hover .mouseenter-move-out-up, .animate-children .animate-move-out-up {
   -webkit-animation-name: moveOutUp;
   -moz-animation-name: moveOutUp;
   animation-name: moveOutUp;
 }
-
 
 /*_move in from left_*/
 
@@ -634,11 +583,7 @@
   }
 }
 
-.move-in-left,
-.mouseleave-move-in-left,
-.hover-move-in-left:hover,
-.hover-animate-children:hover .mouseenter-move-in-left,
-.animate-children .animate-move-in-left{
+.move-in-left, .mouseleave-move-in-left, .hover-move-in-left:hover, .hover-animate-children:hover .mouseenter-move-in-left, .animate-children .animate-move-in-left {
   -webkit-animation-name: moveInLeft;
   -moz-animation-name: moveInLeft;
   animation-name: moveInLeft;
@@ -672,16 +617,11 @@
   }
 }
 
-.move-out-left,
-.mouseleave-move-out-left,
-.hover-move-out-left:hover,
-.hover-animate-children:hover .mouseenter-move-out-left,
-.animate-children .animate-move-out-left{
+.move-out-left, .mouseleave-move-out-left, .hover-move-out-left:hover, .hover-animate-children:hover .mouseenter-move-out-left, .animate-children .animate-move-out-left {
   -webkit-animation-name: moveOutLeft;
   -moz-animation-name: moveOutLeft;
   animation-name: moveOutLeft;
 }
-
 
 /*_move in from right_*/
 
@@ -711,11 +651,7 @@
   }
 }
 
-.move-in-right,
-.mouseleave-move-in-righ,
-.hover-move-in-right:hover,
-.hover-animate-children:hover .mouseenter-move-in-right,
-.animate-children .animate-move-in-right{
+.move-in-right, .mouseleave-move-in-righ, .hover-move-in-right:hover, .hover-animate-children:hover .mouseenter-move-in-right, .animate-children .animate-move-in-right {
   -webkit-animation-name: moveInRight;
   -moz-animation-name: moveInRight;
   animation-name: moveInRight;
@@ -749,11 +685,7 @@
   }
 }
 
-.move-out-right,
-.mouseleave-move-out-right,
-.hover-move-out-right:hover,
-.hover-animate-children:hover .mouseenter-move-out-right,
-.animate-children .animate-move-out-right{
+.move-out-right, .mouseleave-move-out-right, .hover-move-out-right:hover, .hover-animate-children:hover .mouseenter-move-out-right, .animate-children .animate-move-out-right {
   -webkit-animation-name: moveOutRight;
   -moz-animation-name: moveOutRight;
   animation-name: moveOutRight;
@@ -791,11 +723,7 @@
   }
 }
 
-.scale-in,
-.mouseleave-scale-in,
-.hover-scale-in:hover,
-.hover-animate-children:hover .mouseenter-scale-in,
-.animate-children .animate-scale-in{
+.scale-in, .mouseleave-scale-in, .hover-scale-in:hover, .hover-animate-children:hover .mouseenter-scale-in, .animate-children .animate-scale-in {
   -webkit-animation-name: scaleIn;
   -moz-animation-name: scaleIn;
   animation-name: scaleIn;
@@ -846,28 +774,15 @@
   }
 }
 
-.scale-out,
-.mouseleave-scale-out,
-.hover-scale-out:hover,
-.hover-animate-children:hover .mouseenter-scale-out,
-.animate-children .animate-scale-out{
+.scale-out, .mouseleave-scale-out, .hover-scale-out:hover, .hover-animate-children:hover .mouseenter-scale-out, .animate-children .animate-scale-out {
   -webkit-animation-name: scaleOut;
   -moz-animation-name: scaleOut;
   animation-name: scaleOut;
 }
 
-
 /*_ zoom on hover _*/
 
-.zoom-in,
-.zoom-out,
-.hover-zoom-in,
-.hover-zoom-out,
-.mouseleave-zoom-in,
-.hover-animate-children:hover .mouseenter-zoom-in,
-.animate-children .animate-zoom-in,
-.hover-animate-children:hover > .animate-zoom-out,
-.animate-children .animate-zoom-out{
+.zoom-in, .zoom-out, .hover-zoom-in, .hover-zoom-out, .mouseleave-zoom-in, .hover-animate-children:hover .mouseenter-zoom-in, .animate-children .animate-zoom-in, .hover-animate-children:hover > .animate-zoom-out, .animate-children .animate-zoom-out {
   -webkit-transition: all ease;
   -moz-transition: all  ease;
   -ms-transition: all  ease;
@@ -877,363 +792,362 @@
 
 /*_ zoom in  _*/
 
-.zoom-in,
-.hover-zoom-in:hover,
-.mouseleave-zoom-in,
-.hover-animate-children:hover .mouseenter-zoom-in,
-.animate-children .animate-zoom-in{
-  -webkit-transform:scale(1.20);
-  -moz-transform:scale(1.20);
-  -ms-transform:scale(1.20);
-  -o-transform:scale(1.20);
-  transform:scale(1.20);
+.zoom-in, .hover-zoom-in:hover, .mouseleave-zoom-in, .hover-animate-children:hover .mouseenter-zoom-in, .animate-children .animate-zoom-in {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /*_ zoom out  _*/
 
-.zoom-out,
-.hover-zoom-out:hover,
-.mouseleave-zoom-out,
-.hover-animate-children:hover .mouseenter-zoom-out,
-.animate-children .animate-zoom-out{
-  -webkit-transform:scale(0.8);
-  -moz-transform:scale(0.8);
-  -ms-transform:scale(0.8);
-  -o-transform:scale(0.8);
-  transform:scale(0.8);
+.zoom-out, .hover-zoom-out:hover, .mouseleave-zoom-out, .hover-animate-children:hover .mouseenter-zoom-out, .animate-children .animate-zoom-out {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 /* __ animate hover  __ */
 
-.animate-visibility{
+.animate-visibility {
   visibility: hidden;
   display: block !important;
 }
-.hover-animate-children:hover .animate-visibility{
-  visibility: visible;
-}
-.animate-children .hidden,
-.hover-animate-children .hidden{
-  display: block !important;
-}
-.mouseenter-hidden:hover,
-.hover-animate-children:hover .mouseenter-hidden{
-  visibility: hidden;
-}
-.mouseleave-hidden:hover,
-.hover-animate-children:hover .mousleave-hidden{
-  visibility: hidden;
-}
-.mouseenter-visible:hover,
-.hover-animate-children:hover .mouseenter-visible{
-  visibility: visible;
-}
-.mouseleave-visible:hover,
-.hover-animate-children:hover .mouseleave-visible{
+
+.hover-animate-children:hover .animate-visibility {
   visibility: visible;
 }
 
+.animate-children .hidden, .hover-animate-children .hidden {
+  display: block !important;
+}
+
+.mouseenter-hidden:hover, .hover-animate-children:hover .mouseenter-hidden, .mouseleave-hidden:hover, .hover-animate-children:hover .mousleave-hidden {
+  visibility: hidden;
+}
+
+.mouseenter-visible:hover, .hover-animate-children:hover .mouseenter-visible, .mouseleave-visible:hover, .hover-animate-children:hover .mouseleave-visible {
+  visibility: visible;
+}
 
 /*__ visibility __*/
 
-.animate-visibility.slow{
-  -webkit-transition: visibility 2.2s;
-     -moz-transition: visibility 2.2s;
-      -ms-transition: visibility 2.2s;
-       -o-transition: visibility 2.2s;
-          transition: visibility 2.2s;
-}
-.animate-visibility.normal{
-  -webkit-transition: visibility 1s;
-     -moz-transition: visibility 1s;
-      -ms-transition: visibility 1s;
-       -o-transition: visibility 1s;
-          transition: visibility 1s;
-}
-.animate-visibility.medium{
-  -webkit-transition: visibility 0.6s;
-     -moz-transition: visibility 0.6s;
-      -ms-transition: visibility 0.6s;
-       -o-transition: visibility 0.6s;
-          transition: visibility 0.6s;
-}
-.animate-visibility.fast{
-  -webkit-transition: visibility 0.3s;
-     -moz-transition: visibility 0.3s;
-      -ms-transition: visibility 0.3s;
-       -o-transition: visibility 0.3s;
-          transition: visibility 0.3s;
+.animate-visibility {
+  &.slow {
+    -webkit-transition: visibility 2.2s;
+    -moz-transition: visibility 2.2s;
+    -ms-transition: visibility 2.2s;
+    -o-transition: visibility 2.2s;
+    transition: visibility 2.2s;
+  }
+
+  &.normal {
+    -webkit-transition: visibility 1s;
+    -moz-transition: visibility 1s;
+    -ms-transition: visibility 1s;
+    -o-transition: visibility 1s;
+    transition: visibility 1s;
+  }
+
+  &.medium {
+    -webkit-transition: visibility 0.6s;
+    -moz-transition: visibility 0.6s;
+    -ms-transition: visibility 0.6s;
+    -o-transition: visibility 0.6s;
+    transition: visibility 0.6s;
+  }
+
+  &.fast {
+    -webkit-transition: visibility 0.3s;
+    -moz-transition: visibility 0.3s;
+    -ms-transition: visibility 0.3s;
+    -o-transition: visibility 0.3s;
+    transition: visibility 0.3s;
+  }
 }
 
 /* __ height __ */
 
-.animate-height.slow{
-  -webkit-transition: height 2.2s;
-     -moz-transition: height 2.2s;
-      -ms-transition: height 2.2s;
-       -o-transition: height 2.2s;
-          transition: height 2.2s;
-}
-.animate-height.normal{
-  -webkit-transition: height 1s;
-     -moz-transition: height 1s;
-      -ms-transition: height 1s;
-       -o-transition: height 1s;
-          transition: height 1s;
-}
-.animate-height.medium{
-  -webkit-transition: height 0.6s;
-     -moz-transition: height 0.6s;
-      -ms-transition: height 0.6s;
-       -o-transition: height 0.6s;
-          transition: height 0.6s;
-}
-.animate-height.fast{
-  -webkit-transition: height 0.3s;
-     -moz-transition: height 0.3s;
-      -ms-transition: height 0.3s;
-       -o-transition: height 0.3s;
-          transition: height 0.3s;
-}
-.animate-height.faster{
-  -webkit-transition: height 0.1s;
-     -moz-transition: height 0.1s;
-      -ms-transition: height 0.1s;
-       -o-transition: height 0.1s;
-          transition: height 0.1s;
-}
+.animate-height {
+  &.slow {
+    -webkit-transition: height 2.2s;
+    -moz-transition: height 2.2s;
+    -ms-transition: height 2.2s;
+    -o-transition: height 2.2s;
+    transition: height 2.2s;
+  }
 
+  &.normal {
+    -webkit-transition: height 1s;
+    -moz-transition: height 1s;
+    -ms-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s;
+  }
+
+  &.medium {
+    -webkit-transition: height 0.6s;
+    -moz-transition: height 0.6s;
+    -ms-transition: height 0.6s;
+    -o-transition: height 0.6s;
+    transition: height 0.6s;
+  }
+
+  &.fast {
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+  }
+
+  &.faster {
+    -webkit-transition: height 0.1s;
+    -moz-transition: height 0.1s;
+    -ms-transition: height 0.1s;
+    -o-transition: height 0.1s;
+    transition: height 0.1s;
+  }
+}
 
 /* __ width __ */
 
-.animate-width.slow{
-  -webkit-transition: width 2.2s;
-     -moz-transition: width 2.2s;
-      -ms-transition: width 2.2s;
-       -o-transition: width 2.2s;
-          transition: width 2.2s;
-}
-.animate-width.normal{
-  -webkit-transition: width 1s;
-     -moz-transition: width 1s;
-      -ms-transition: width 1s;
-       -o-transition: width 1s;
-          transition: width 1s;
-}
-.animate-width.medium{
-  -webkit-transition: width 0.6s;
-     -moz-transition: width 0.6s;
-      -ms-transition: width 0.6s;
-       -o-transition: width 0.6s;
-          transition: width 0.6s;
-}
-.animate-width.fast{
-  -webkit-transition: width 0.3s;
-     -moz-transition: width 0.3s;
-      -ms-transition: width 0.3s;
-       -o-transition: width 0.3s;
-          transition: width 0.3s;
-}
-.animate-width.faster{
-  -webkit-transition: width 0.1s;
-     -moz-transition: width 0.1s;
-      -ms-transition: width 0.1s;
-       -o-transition: width 0.1s;
-          transition: width 0.1s;
+.animate-width {
+  &.slow {
+    -webkit-transition: width 2.2s;
+    -moz-transition: width 2.2s;
+    -ms-transition: width 2.2s;
+    -o-transition: width 2.2s;
+    transition: width 2.2s;
+  }
+
+  &.normal {
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -ms-transition: width 1s;
+    -o-transition: width 1s;
+    transition: width 1s;
+  }
+
+  &.medium {
+    -webkit-transition: width 0.6s;
+    -moz-transition: width 0.6s;
+    -ms-transition: width 0.6s;
+    -o-transition: width 0.6s;
+    transition: width 0.6s;
+  }
+
+  &.fast {
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+  }
+
+  &.faster {
+    -webkit-transition: width 0.1s;
+    -moz-transition: width 0.1s;
+    -ms-transition: width 0.1s;
+    -o-transition: width 0.1s;
+    transition: width 0.1s;
+  }
 }
 
 /* __ border __ */
 
-.animate-border.slow,
-.animate-children-border.slow *{
+.animate-border.slow, .animate-children-border.slow * {
   -webkit-transition: border 2.2s;
-     -moz-transition: border 2.2s;
-      -ms-transition: border 2.2s;
-       -o-transition: border 2.2s;
-          transition: border 2.2s;
-}
-.animate-border.normal,
-.animate-children-border.normal *{
-  -webkit-transition: border 1s;
-     -moz-transition: border 1s;
-      -ms-transition: border 1s;
-       -o-transition: border 1s;
-          transition: border 1s;
-}
-.animate-border.medium,
-.animate-children-border.medium *{
-  -webkit-transition: border 0.6s;
-     -moz-transition: border 0.6s;
-      -ms-transition: border 0.6s;
-       -o-transition: border 0.6s;
-          transition: border 0.6s;
-}
-.animate-border.fast,
-.animate-children-border.fast *{
-  -webkit-transition: border 0.3s;
-     -moz-transition: border 0.3s;
-      -ms-transition: border 0.3s;
-       -o-transition: border 0.3s;
-          transition: border 0.3s;
+  -moz-transition: border 2.2s;
+  -ms-transition: border 2.2s;
+  -o-transition: border 2.2s;
+  transition: border 2.2s;
 }
 
-.animate-border.faster,
-.animate-children-border.faster *{
+.animate-border.normal, .animate-children-border.normal * {
+  -webkit-transition: border 1s;
+  -moz-transition: border 1s;
+  -ms-transition: border 1s;
+  -o-transition: border 1s;
+  transition: border 1s;
+}
+
+.animate-border.medium, .animate-children-border.medium * {
+  -webkit-transition: border 0.6s;
+  -moz-transition: border 0.6s;
+  -ms-transition: border 0.6s;
+  -o-transition: border 0.6s;
+  transition: border 0.6s;
+}
+
+.animate-border.fast, .animate-children-border.fast * {
+  -webkit-transition: border 0.3s;
+  -moz-transition: border 0.3s;
+  -ms-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  transition: border 0.3s;
+}
+
+.animate-border.faster, .animate-children-border.faster * {
   -webkit-transition: border 0.1s;
-     -moz-transition: border 0.1s;
-      -ms-transition: border 0.1s;
-       -o-transition: border 0.1s;
-          transition: border 0.1s;
+  -moz-transition: border 0.1s;
+  -ms-transition: border 0.1s;
+  -o-transition: border 0.1s;
+  transition: border 0.1s;
 }
 
 /* __ border width __ */
 
-.animate-border-width.slow,
-.animate-children-border-width.slow *{
+.animate-border-width.slow, .animate-children-border-width.slow * {
   -webkit-transition: border-width 0.4s;
-     -moz-transition: border-width 0.4s;
-      -ms-transition: border-width 0.4s;
-       -o-transition: border-width 0.4s;
-          transition: border-width 0.4s;
+  -moz-transition: border-width 0.4s;
+  -ms-transition: border-width 0.4s;
+  -o-transition: border-width 0.4s;
+  transition: border-width 0.4s;
 }
-.animate-border-width.normal,
-.animate-children-border-width.normal *{
+
+.animate-border-width.normal, .animate-children-border-width.normal * {
   -webkit-transition: border-width 0.3s;
-     -moz-transition: border-width 0.3s;
-      -ms-transition: border-width 0.3s;
-       -o-transition: border-width 0.3s;
-          transition: border-width 0.3s;
+  -moz-transition: border-width 0.3s;
+  -ms-transition: border-width 0.3s;
+  -o-transition: border-width 0.3s;
+  transition: border-width 0.3s;
 }
-.animate-border-width.medium,
-.animate-children-border-width.medium *{
+
+.animate-border-width.medium, .animate-children-border-width.medium * {
   -webkit-transition: border-width 0.2s;
-     -moz-transition: border-width 0.2s;
-      -ms-transition: border-width 0.2s;
-       -o-transition: border-width 0.2s;
-          transition: border-width 0.2s;
+  -moz-transition: border-width 0.2s;
+  -ms-transition: border-width 0.2s;
+  -o-transition: border-width 0.2s;
+  transition: border-width 0.2s;
 }
-.animate-border-width.fast,
-.animate-children-border-width.fast *{
+
+.animate-border-width.fast, .animate-children-border-width.fast * {
   -webkit-transition: border-width 0.1s;
-     -moz-transition: border-width 0.1s;
-      -ms-transition: border-width 0.1s;
-       -o-transition: border-width 0.1s;
-          transition: border-width 0.1s;
+  -moz-transition: border-width 0.1s;
+  -ms-transition: border-width 0.1s;
+  -o-transition: border-width 0.1s;
+  transition: border-width 0.1s;
 }
-.animate-border-width.faster,
-.animate-children-border-width.faster *{
+
+.animate-border-width.faster, .animate-children-border-width.faster * {
   -webkit-transition: border-width 0.05s;
-     -moz-transition: border-width 0.05s;
-      -ms-transition: border-width 0.05s;
-       -o-transition: border-width 0.05s;
-          transition: border-width 0.05s;
+  -moz-transition: border-width 0.05s;
+  -ms-transition: border-width 0.05s;
+  -o-transition: border-width 0.05s;
+  transition: border-width 0.05s;
 }
 
 /* __ background __ */
 
-.animate-background.slow,
-.animate-children-background.slow *{
+.animate-background.slow, .animate-children-background.slow * {
   -webkit-transition: background 0.4s;
-     -moz-transition: background 0.4s;
-      -ms-transition: background 0.4s;
-       -o-transition: background 0.4s;
-          transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  -ms-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  transition: background 0.4s;
 }
-.animate-background.normal,
-.animate-children-background.normal *{
+
+.animate-background.normal, .animate-children-background.normal * {
   -webkit-transition: background 0.3s;
-     -moz-transition: background 0.3s;
-      -ms-transition: background 0.3s;
-       -o-transition: background 0.3s;
-          transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  -ms-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
 }
-.animate-background.medium,
-.animate-children-background.medium *{
+
+.animate-background.medium, .animate-children-background.medium * {
   -webkit-transition: background 0.2s;
-     -moz-transition: background 0.2s;
-      -ms-transition: background 0.2s;
-       -o-transition: background 0.2s;
-          transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  -ms-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s;
 }
-.animate-background.fast,
-.animate-children-background.fast *{
+
+.animate-background.fast, .animate-children-background.fast * {
   -webkit-transition: background 0.1s;
-     -moz-transition: background 0.1s;
-      -ms-transition: background 0.1s;
-       -o-transition: background 0.1s;
-          transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -ms-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
 }
-.animate-background.faster,
-.animate-children-background.faster *{
+
+.animate-background.faster, .animate-children-background.faster * {
   -webkit-transition: background 0.05s;
-     -moz-transition: background 0.05s;
-      -ms-transition: background 0.05s;
-       -o-transition: background 0.05s;
-          transition: background 0.05s;
+  -moz-transition: background 0.05s;
+  -ms-transition: background 0.05s;
+  -o-transition: background 0.05s;
+  transition: background 0.05s;
 }
 
 /* __ animate all __ */
 
-.animate-all.slow,
-.animate-children-all.slow *{
+.animate-all.slow, .animate-children-all.slow * {
   -webkit-transition: all 0.4s;
-     -moz-transition: all 0.4s;
-      -ms-transition: all 0.4s;
-       -o-transition: all 0.4s;
-          transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
-.animate-all.normal,
-.animate-children-all.normal *{
+
+.animate-all.normal, .animate-children-all.normal * {
   -webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-      -ms-transition: all 0.3s;
-       -o-transition: all 0.3s;
-          transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
-.animate-all.medium,
-.animate-children-all.medium *{
+
+.animate-all.medium, .animate-children-all.medium * {
   -webkit-transition: all 0.2s;
-     -moz-transition: all 0.2s;
-      -ms-transition: all 0.2s;
-       -o-transition: all 0.2s;
-          transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
-.animate-all.fast,
-.animate-children-all.fast *{
+
+.animate-all.fast, .animate-children-all.fast * {
   -webkit-transition: all 0.1s;
-     -moz-transition: all 0.1s;
-      -ms-transition: all 0.1s;
-       -o-transition: all 0.1s;
-          transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
 }
-.animate-all.faster,
-.animate-children-all.faster *{
+
+.animate-all.faster, .animate-children-all.faster * {
   -webkit-transition: all 0.05s;
-     -moz-transition: all 0.05s;
-      -ms-transition: all 0.05s;
-       -o-transition: all 0.05s;
-          transition: all 0.05s;
+  -moz-transition: all 0.05s;
+  -ms-transition: all 0.05s;
+  -o-transition: all 0.05s;
+  transition: all 0.05s;
 }
 
 /* __ animation timing __ */
 
-.linear{
+.linear {
   -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
+  animation-timing-function: linear;
 }
-.ease{
+
+.ease {
   -webkit-animation-timing-function: ease;
-    animation-timing-function: ease;
+  animation-timing-function: ease;
 }
-.ease-in{
+
+.ease-in {
   -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
 }
-.ease-out{
+
+.ease-out {
   -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
 }
-.ease-in-out{
+
+.ease-in-out {
   -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
 }

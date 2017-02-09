@@ -1,0 +1,117 @@
+/*
+  Table Module v1
+  -------------------------
+  @desc: Tables
+  @author: Alan Museljic
+  @twitter: https://www.twitter.com/_uloga
+  @source: http://www.decorator.io/modulr
+\--------------------------------------------*/
+
+table {
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  max-width: 100%;
+  width: 100%;
+  float: left;
+
+  thead {
+    th, td {
+      border-top: none;
+      text-align: left;
+    }
+  }
+
+  td, th {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  td .action a {
+    padding: 0 1px;
+
+    &:hover {
+      text-decoration: underline;
+      color: #444;
+    }
+  }
+
+  &.hover tbody tr:hover {
+    background: #f6f6f6;
+  }
+
+  &.bordered {
+    td, th {
+      border: 1px solid #ddd;
+    }
+  }
+
+  &.striped tr:nth-child(odd) > td {
+    background: #f6f6f6;
+  }
+
+  &.center * {
+    text-align: center;
+  }
+
+  &.media {
+    td, th {
+      padding: 8px;
+    }
+  }
+
+  &.center {
+    td, th {
+      text-align: center;
+    }
+  }
+}
+
+/* __ modefiers __ */
+
+td.center, th.center {
+  text-align: center;
+}
+
+/* __ responsive __ */
+
+table {
+  &.responsive {
+    white-space: nowrap;
+  }
+
+  &.bordered {
+    &.border-2 {
+      td, th {
+        border-width: 2px;
+      }
+    }
+
+    &.border-3 {
+      td, th {
+        border-width: 3px;
+      }
+    }
+
+    &.border-4 {
+      td, th {
+        border-width: 4px;
+      }
+    }
+
+    &.border-5 {
+      td, th {
+        border-width: 5px;
+      }
+    }
+
+    &.border-6 {
+      td, th {
+        border-width: 6px;
+      }
+    }
+  }
+}
+
+/* __ borders __ */

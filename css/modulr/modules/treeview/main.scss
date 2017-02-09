@@ -1,0 +1,100 @@
+/*
+  Modulr.css Module
+  ---------------------
+  @desc: Treeview 
+  @author: Alan Muselitch 
+  @copyright: Alan Muselitch
+  @git: http://github.com/uloga/treeview
+\--------------------------------------------*/
+
+.treeview {
+  line-height: 28px;
+  font-weight: 500;
+  font-size: 15px;
+  width: 100%;
+  float: left;
+
+  ul {
+    width: 100%;
+    float: left;
+
+    li {
+      width: 100%;
+      float: left;
+    }
+  }
+
+  .folder {
+    position: relative;
+
+    i {
+      padding-left: 22px;
+    }
+
+    &:before {
+      font-family: 'FontAwesome';
+      float: left;
+      margin-right: 6px;
+    }
+  }
+
+  .file:before, .external:before {
+    font-family: 'FontAwesome';
+    float: left;
+    margin-right: 6px;
+  }
+
+  .folder:before {
+    content: "\f114";
+    position: absolute;
+    left: 17px;
+    font-size: 17px;
+  }
+
+  .file:before {
+    font-size: 90%;
+    content: "";
+  }
+
+  .external:before {
+    font-size: 90%;
+    content: "\f122";
+  }
+
+  .extend {
+    .folder > ul {
+      display: none;
+      margin-left: 18px;
+    }
+
+    label {
+      float: left;
+    }
+
+    input {
+      display: none;
+
+      &[type=checkbox] {
+        + i:before {
+          content: "\f196";
+          color: #111;
+          float: left;
+          font-size: 14px;
+          margin-left: 1px;
+          margin-top: 7px;
+          cursor: pointer;
+        }
+
+        &:checked {
+          + i:before {
+            content: "\f147";
+          }
+
+          ~ ul {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

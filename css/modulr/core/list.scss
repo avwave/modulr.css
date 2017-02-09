@@ -7,34 +7,38 @@
   @source: http://www.decorator.io/modulr
 \--------------------------------------------*/
 
-ol, .disc, .circle{
+ol, .disc, .circle {
   margin-left: 15px;
 }
-ul.inline,
-ol.inline{
+
+ul.inline, ol.inline {
   float: left;
 }
-.disc{
+
+.disc {
   list-style: disc;
 }
-.circle{
+
+.circle {
   list-style: circle;
 }
-.list li > ul,
-.disc li > ul{
+
+.list li > ul, .disc li > ul {
   margin-left: 15px;
 }
-.inline li{
+
+.inline li {
   float: left;
-  margin:0 15px 0 0;
+  margin: 0 15px 0 0;
 }
-ol.inline li{
+
+ol.inline li {
   float: left;
   margin: 0 30px 0 0;
   white-space: nowrap;
 }
-ul.pull-left li,
-ol.pull-left li{
+
+ul.pull-left li, ol.pull-left li {
   float: left;
   width: 100%;
 }

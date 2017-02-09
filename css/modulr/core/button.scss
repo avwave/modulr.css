@@ -1,0 +1,520 @@
+/*
+  Button Module v1
+  ---------------------
+  @desc: Buttons, addons, groups
+  @author: Alan Museljic
+  @twitter: https://www.twitter.com/_uloga
+  @source: http://www.decorator.io/modulr
+\--------------------------------------------*/
+
+/* __ buttons __ */
+
+.btn, .addon {
+  display: inline-block;
+  padding: 5px  10px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  transition: background  ease-in-out 0.1s;
+}
+
+.btn {
+  background: #eee;
+  cursor: pointer;
+}
+
+button {
+  background: #eee;
+  cursor: pointer;
+
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+/* __ button append / prepend __*/
+
+.btn {
+  &.s > {
+    .prepend {
+      padding-right: 5px;
+    }
+
+    .append {
+      padding-left: 5px;
+    }
+  }
+
+  > .prepend, &.m > .prepend, &.l > .prepend {
+    padding-right: 8px;
+  }
+
+  > .append, &.m > .append, &.l > .append {
+    padding-left: 8px;
+  }
+
+  &.xl > {
+    .prepend {
+      padding-right: 10px;
+    }
+
+    .append {
+      padding-left: 10px;
+    }
+  }
+
+  &.xxl > {
+    .prepend {
+      padding-right: 12px;
+    }
+
+    .append {
+      padding-left: 12px;
+    }
+  }
+
+  &.s {
+    padding: 2px 5px 1px;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
+
+/* __ button sizes __ */
+
+.buttons.s .btn, .button-group.s .btn {
+  padding: 2px 5px 1px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.btn-addon.s {
+  .btn, .addon {
+    padding: 2px 5px 1px;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
+
+.form.s .btn {
+  padding: 2px 5px 1px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.btn.l, .buttons.l .btn, .button-group.l .btn {
+  font-size: 17px;
+  padding: 8px  15px;
+}
+
+.btn-addon.l {
+  .btn, .addon {
+    font-size: 17px;
+    padding: 8px  15px;
+  }
+}
+
+.btn.xl, .buttons.xl .btn, .button-group.xl .btn {
+  font-size: 21px;
+  padding: 9px 16px;
+}
+
+.btn-addon.xl {
+  .btn, .addon {
+    font-size: 21px;
+    padding: 9px 16px;
+  }
+}
+
+.btn.xxl, .buttons.xxl .btn, .button-group.xxl .btn {
+  font-size: 27px;
+  padding: 9px 20px;
+}
+
+.btn-addon.xxl {
+  .btn, .addon {
+    font-size: 27px;
+    padding: 9px 20px;
+  }
+}
+
+/* __ icons __ */
+
+.btn.icon {
+  height: 32px;
+  width: 32px;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 0;
+
+  &.s {
+    height: 20px;
+    width: 20px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  &.l {
+    height: 42px;
+    width: 42px;
+    font-size: 27px;
+    line-height: 42px;
+  }
+
+  &.xl {
+    height: 50px;
+    width: 50px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  &.xxl {
+    height: 58px;
+    width: 58px;
+    font-size: 38px;
+    line-height: 58px;
+  }
+
+  &.border-2 {
+    line-height: 30px;
+  }
+
+  &.s.border-2 {
+    line-height: 18px;
+  }
+
+  &.l.border-2 {
+    line-height: 38px;
+  }
+
+  &.xl.border-2 {
+    line-height: 46px;
+  }
+
+  &.xxl.border-2 {
+    line-height: 58px;
+  }
+
+  &.border-3 {
+    line-height: 28px;
+  }
+
+  &.s.border-3 {
+    line-height: 16px;
+  }
+
+  &.l.border-3 {
+    line-height: 36px;
+  }
+
+  &.xl.border-3 {
+    line-height: 44px;
+  }
+
+  &.xxl.border-3 {
+    line-height: 56px;
+  }
+
+  &.border-4 {
+    line-height: 26px;
+  }
+
+  &.s.border-4 {
+    line-height: 14px;
+  }
+
+  &.l.border-4 {
+    line-height: 34px;
+  }
+
+  &.xl.border-4 {
+    line-height: 42px;
+  }
+
+  &.xxl.border-4 {
+    line-height: 54px;
+  }
+
+  &.border-5 {
+    line-height: 24px;
+  }
+
+  &.s.border-5 {
+    line-height: 12px;
+  }
+
+  &.l.border-5 {
+    line-height: 32px;
+  }
+
+  &.xl.border-5 {
+    line-height: 40px;
+  }
+
+  &.xxl.border-5 {
+    line-height: 52px;
+  }
+
+  &.border-6 {
+    line-height: 22px;
+  }
+
+  &.s.border-6 {
+    line-height: 10px;
+  }
+
+  &.l.border-6 {
+    line-height: 30px;
+  }
+
+  &.xl.border-6 {
+    line-height: 38px;
+  }
+
+  &.xxl.border-6 {
+    line-height: 50px;
+  }
+}
+
+/* __ btn icon border modifiers __ */
+
+/* __ buttons /  group of buttons __*/
+
+.buttons, .button-group, .btn-addon {
+  display: inline-block;
+}
+
+.buttons .btn, .button-group .btn {
+  margin: 0;
+  float: left;
+}
+
+.btn-addon {
+  .btn, .addon {
+    margin: 0;
+    float: left;
+  }
+}
+
+.buttons .btn {
+  border-right: 1px solid rgba(255, 255, 255, 0.36);
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+/* __ BUTTON THEMES __ */
+
+/* __ success __ */
+
+.btn {
+  &.success {
+    background: #2AA583;
+    color: #fff;
+  }
+
+  &.border.success {
+    &:hover {
+      background: #2AA583;
+      color: #fff;
+    }
+
+    background: transparent;
+    border-color: #2AA583;
+    color: #2AA583;
+  }
+}
+
+.addon.border.success {
+  background: transparent;
+  border-color: #2AA583;
+  color: #2AA583;
+}
+
+/* __ info __ */
+
+.btn {
+  &.info {
+    background: #15a3ff;
+    color: #fff;
+  }
+
+  &.border.info {
+    &:hover {
+      background: #15a3ff;
+      color: #fff;
+    }
+
+    background: transparent;
+    border-color: #15a3ff;
+    color: #15a3ff;
+  }
+}
+
+.addon.border.info {
+  background: transparent;
+  border-color: #15a3ff;
+  color: #15a3ff;
+}
+
+/* __ warning __ */
+
+.btn {
+  &.warning {
+    background: #F3AB44;
+    color: #fff;
+  }
+
+  &.border.warning {
+    &:hover {
+      background: #F3AB44;
+      color: #fff;
+    }
+
+    background: transparent;
+    border-color: #F3AB44;
+    color: #F3AB44;
+  }
+}
+
+.addon.border.warning {
+  background: transparent;
+  border-color: #F3AB44;
+  color: #F3AB44;
+}
+
+/* __ danger__ */
+
+.btn {
+  &.danger {
+    background: #EA4335;
+    color: #fff;
+  }
+
+  &.border.danger {
+    &:hover {
+      background: #EA4335;
+      color: #fff;
+    }
+
+    background: transparent;
+    border-color: #EA4335;
+    color: #EA4335;
+  }
+}
+
+.addon.border.danger {
+  background: transparent;
+  border-color: #EA4335;
+  color: #EA4335;
+}
+
+/* __ hover states __ */
+
+.btn {
+  &:hover, &.active {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#26000000)" !important;
+  }
+
+  &.border:hover, &[class~="hover-"] {
+    background-image: none !important;
+  }
+}
+
+a.addon:hover {
+  text-decoration: underline;
+}
+
+/* __ gradient buttons  __ */
+
+.btn {
+  &.gradient {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#26000000)" !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+
+    &:hover {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.26)) !important;
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#28000000)" !important;
+    }
+  }
+
+  &.glossy {
+    box-shadow: inset 0 15px 0 rgba(255, 255, 255, 0.26);
+    -wbkit-box-shadow: inset 0 15px 0 rgba(255, 255, 255, 0.26);
+    -moz-box-shadow: inset 0 15px 0 rgba(255, 255, 255, 0.26);
+  }
+
+  &.s.glossy {
+    box-shadow: inset 0 9px 0 rgba(255, 255, 255, 0.26);
+    -wbkit-box-shadow: inset 0 9px 0 rgba(255, 255, 255, 0.26);
+    -moz-box-shadow: inset 0 9px 0 rgba(255, 255, 255, 0.26);
+  }
+
+  &.l.glossy {
+    box-shadow: inset 0 21px 0 rgba(255, 255, 255, 0.26);
+    -wbkit-box-shadow: inset 0 21px 0 rgba(255, 255, 255, 0.26);
+    -moz-box-shadow: inset 0 21px 0 rgba(255, 255, 255, 0.26);
+  }
+
+  &.xl.glossy {
+    box-shadow: inset 0 24px 0 rgba(255, 255, 255, 0.26);
+    -wbkit-box-shadow: inset 0 24px 0 rgba(255, 255, 255, 0.26);
+    -moz-box-shadow: inset 0 24px 0 rgba(255, 255, 255, 0.26);
+  }
+
+  &.xxl.glossy {
+    box-shadow: inset 0 31px 0 rgba(255, 255, 255, 0.26);
+    -wbkit-box-shadow: inset 0 31px 0 rgba(255, 255, 255, 0.26);
+    -moz-box-shadow: inset 0 31px 0 rgba(255, 255, 255, 0.26);
+  }
+}
+
+/* __ glossy buttons __*/
+
+/* __ button helpers __ */
+
+/* must be added to parent element */
+
+.button-center {
+  text-align: center;
+}
+
+/* __ disable hover __ */
+
+.btn {
+  &.border {
+    &.hover-none:hover, &.hover-disable:hover {
+      background: transparent !important;
+      cursor: default;
+    }
+  }
+
+  &.hover-disable:hover {
+    background: transparent !important;
+    background-image: none !Important;
+    cursor: default;
+  }
+
+  &.hover-fill-transparent:hover {
+    background: transparent !important;
+    background-image: none !Important;
+  }
+}
+
+.btn-addon .btn:hover {
+  background-image: none !Important;
+}
+
+.btn.hover-fill-disable:hover {
+  background-image: none !important;
+}

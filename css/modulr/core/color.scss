@@ -1,0 +1,2507 @@
+/*
+  Colors Module v1
+  ---------------------
+  @desc: Default color scheme
+  @author: Alan Museljic
+  @twitter: https://www.twitter.com/_uloga
+  @source: http://modulr.decorator.io
+\--------------------------------------------*/
+
+/* __ background colors __ */
+
+.red, .btn.border.red:hover {
+  background: #F44336;
+  color: #FFFFFF;
+}
+
+.pagination.red li {
+  a:hover, .active {
+    background: #F44336;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.red {
+  ul, .child, li a {
+    background: #F44336;
+    color: #FFFFFF;
+  }
+}
+
+.menu.red li a, .dropdown.red .child li a {
+  background: #F44336;
+  color: #FFFFFF;
+}
+
+.form.red {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #F44336;
+    color: #FFFFFF;
+  }
+}
+
+.red input[type=checkbox]:checked ~ .track {
+  background: #F44336;
+  color: #FFFFFF;
+}
+
+.pink, .btn.border.pink:hover {
+  background: #E91E63;
+  color: #FFFFFF;
+}
+
+.pagination.pink li {
+  a:hover, .active {
+    background: #E91E63;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.pink {
+  ul, .child, li a {
+    background: #E91E63;
+    color: #FFFFFF;
+  }
+}
+
+.menu.pink li a, .dropdown.pink .child li a {
+  background: #E91E63;
+  color: #FFFFFF;
+}
+
+.form.pink {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #E91E63;
+    color: #FFFFFF;
+  }
+}
+
+.pink input[type=checkbox]:checked ~ .track {
+  background: #E91E63;
+  color: #FFFFFF;
+}
+
+.purple, .btn.border.purple:hover {
+  background: #673AB7;
+  color: #FFFFFF;
+}
+
+.pagination.purple li {
+  a:hover, .active {
+    background: #673AB7;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.purple {
+  ul, .child, li a {
+    background: #673AB7;
+    color: #FFFFFF;
+  }
+}
+
+.menu.purple li a, .dropdown.purple .child li a {
+  background: #673AB7;
+  color: #FFFFFF;
+}
+
+.form.purple {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #673AB7;
+    color: #FFFFFF;
+  }
+}
+
+.purple input[type=checkbox]:checked ~ .track {
+  background: #673AB7;
+  color: #FFFFFF;
+}
+
+.indigo, .btn.border.indigo:hover {
+  background: #3F51B5;
+  color: #FFFFFF;
+}
+
+.pagination.indigo li {
+  a:hover, .active {
+    background: #3F51B5;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.indigo {
+  ul, .child, li a {
+    background: #3F51B5;
+    color: #FFFFFF;
+  }
+}
+
+.menu.indigo li a, .dropdown.indigo .child li a {
+  background: #3F51B5;
+  color: #FFFFFF;
+}
+
+.form.indigo {
+  &.btn, input[type=checkbox]:checked ~ .track {
+    background: #3F51B5;
+    color: #FFFFFF;
+  }
+}
+
+.indigo input[type=checkbox]:checked ~ .track {
+  background: #3F51B5;
+  color: #FFFFFF;
+}
+
+.blue, .btn.border.blue:hover {
+  background: #2196F3;
+  color: #FFFFFF;
+}
+
+.pagination.blue li {
+  a:hover, .active {
+    background: #2196F3;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.blue {
+  ul, .child, li a {
+    background: #2196F3;
+    color: #FFFFFF;
+  }
+}
+
+.menu.blue li a, .dropdown.blue .child li a {
+  background: #2196F3;
+  color: #FFFFFF;
+}
+
+.form.blue {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #2196F3;
+    color: #FFFFFF;
+  }
+}
+
+.blue input[type=checkbox]:checked ~ .track {
+  background: #2196F3;
+  color: #FFFFFF;
+}
+
+.light-blue, .btn.border.light-blue:hover {
+  background: #03A9F4;
+  color: #FFFFFF;
+}
+
+.pagination.light-blue li {
+  a:hover, .active {
+    background: #03A9F4;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.light-blue {
+  ul, .child, li a {
+    background: #03A9F4;
+    color: #FFFFFF;
+  }
+}
+
+.menu.light-blue li a, .dropdown.light-blue .child li a {
+  background: #03A9F4;
+  color: #FFFFFF;
+}
+
+.form.light-blue {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #03A9F4;
+    color: #FFFFFF;
+  }
+}
+
+.light-blue input[type=checkbox]:checked ~ .track {
+  background: #03A9F4;
+  color: #FFFFFF;
+}
+
+.cyan, .btn.border.cyan:hover {
+  background: #00BCD4;
+  color: #FFFFFF;
+}
+
+.pagination.cyan li {
+  a:hover, .active {
+    background: #00BCD4;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.cyan {
+  ul, .child, li a {
+    background: #00BCD4;
+    color: #FFFFFF;
+  }
+}
+
+.menu.cyan li a, .dropdown.cyan .child li a {
+  background: #00BCD4;
+  color: #FFFFFF;
+}
+
+.form.cyan {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #00BCD4;
+    color: #FFFFFF;
+  }
+}
+
+.cyan input[type=checkbox]:checked ~ .track {
+  background: #00BCD4;
+  color: #FFFFFF;
+}
+
+.teal, .btn.border.teal:hover {
+  background: #009688;
+  color: #FFFFFF;
+}
+
+.pagination.teal li {
+  a:hover, .active {
+    background: #009688;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.teal {
+  ul, .child, li a {
+    background: #009688;
+    color: #FFFFFF;
+  }
+}
+
+.menu.teal li a, .dropdown.teal .child li a {
+  background: #009688;
+  color: #FFFFFF;
+}
+
+.form.teal {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #009688;
+    color: #FFFFFF;
+  }
+}
+
+.teal input[type=checkbox]:checked ~ .track {
+  background: #009688;
+  color: #FFFFFF;
+}
+
+.green, .btn.border.green:hover {
+  background: #4CAF50;
+  color: #FFFFFF;
+}
+
+.pagination.green li {
+  a:hover, .active {
+    background: #4CAF50;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.green {
+  ul, .child, li a {
+    background: #4CAF50;
+    color: #FFFFFF;
+  }
+}
+
+.menu.green li a, .dropdown.green .child li a {
+  background: #4CAF50;
+  color: #FFFFFF;
+}
+
+.form.green {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #4CAF50;
+    color: #FFFFFF;
+  }
+}
+
+.green input[type=checkbox]:checked ~ .track {
+  background: #4CAF50;
+  color: #FFFFFF;
+}
+
+.light-green, .btn.border.light-green:hover {
+  background: #8BC34A;
+  color: #FFFFFF;
+}
+
+.pagination.light-green li {
+  a:hover, .active {
+    background: #8BC34A;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.light-green {
+  ul, .child, li a {
+    background: #8BC34A;
+    color: #FFFFFF;
+  }
+}
+
+.menu.light-green li a, .dropdown.light-green .child li a {
+  background: #8BC34A;
+  color: #FFFFFF;
+}
+
+.form.light-green {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #8BC34A;
+    color: #FFFFFF;
+  }
+}
+
+.light-green input[type=checkbox]:checked ~ .track {
+  background: #8BC34A;
+  color: #FFFFFF;
+}
+
+.yellow, .btn.border.yellow:hover {
+  background: #FFC107;
+  color: #FFFFFF;
+}
+
+.pagination.yellow li {
+  a:hover, .active {
+    background: #FFC107;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.yellow {
+  ul, .child, li a {
+    background: #FFC107;
+    color: #FFFFFF;
+  }
+}
+
+.menu.yellow li a, .dropdown.yellow .child li a {
+  background: #FFC107;
+  color: #FFFFFF;
+}
+
+.form.yellow {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #FFC107;
+    color: #FFFFFF;
+  }
+}
+
+.yellow input[type=checkbox]:checked ~ .track {
+  background: #FFC107;
+  color: #FFFFFF;
+}
+
+.light-yellow, .btn.border.light-yellow:hover {
+  background: #FFEB3B;
+  color: #806103;
+}
+
+.pagination.light-yellow li {
+  a:hover, .active {
+    background: #FFEB3B;
+    color: #806103;
+  }
+}
+
+.navbar.light-yellow {
+  ul, .child, li a {
+    background: #FFEB3B;
+    color: #806103;
+  }
+}
+
+.menu.light-yellow li a, .dropdown.light-yellow .child li a {
+  background: #FFEB3B;
+  color: #806103;
+}
+
+.form.light-yellow {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #FFEB3B;
+    color: #806103;
+  }
+}
+
+.light-yellow input[type=checkbox]:checked ~ .track {
+  background: #FFEB3B;
+  color: #806103;
+}
+
+.orange, .btn.border.orange:hover {
+  background: #FF9800;
+  color: #FFFFFF;
+}
+
+.pagination.orange li {
+  a:hover, .active {
+    background: #FF9800;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.orange {
+  ul, .child, li a {
+    background: #FF9800;
+    color: #FFFFFF;
+  }
+}
+
+.menu.orange li a, .dropdown.orange .child li a {
+  background: #FF9800;
+  color: #FFFFFF;
+}
+
+.form.orange {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #FF9800;
+    color: #FFFFFF;
+  }
+}
+
+.orange input[type=checkbox]:checked ~ .track {
+  background: #FF9800;
+  color: #FFFFFF;
+}
+
+.orange-red, .btn.border.orange-red:hover {
+  background: #FF5722;
+  color: #FFFFFF;
+}
+
+.pagination.orange-red li {
+  a:hover, .active {
+    background: #FF5722;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.orange-red {
+  ul, .child, li a {
+    background: #FF5722;
+    color: #FFFFFF;
+  }
+}
+
+.menu.orange-red li a, .dropdown.orange-red .child li a {
+  background: #FF5722;
+  color: #FFFFFF;
+}
+
+.form.orange-red {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #FF5722;
+    color: #FFFFFF;
+  }
+}
+
+.orange-red input[type=checkbox]:checked ~ .track {
+  background: #FF5722;
+  color: #FFFFFF;
+}
+
+.black, .btn.border.black:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.pagination.black li {
+  a:hover, .active {
+    background: #000000;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.black {
+  ul, .child, li a {
+    background: #000000;
+    color: #FFFFFF;
+  }
+}
+
+.menu.black li a, .dropdown.black .child li a {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.form.black {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #000000;
+    color: #FFFFFF;
+  }
+}
+
+.black input[type=checkbox]:checked ~ .track {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.brown, .btn.border.brown:hover {
+  background: #795548;
+  color: #FFFFFF;
+}
+
+.pagination.brown li {
+  a:hover, .active {
+    background: #795548;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.brown {
+  ul, .child, li a {
+    background: #795548;
+    color: #FFFFFF;
+  }
+}
+
+.menu.brown li a, .dropdown.brown .child li a {
+  background: #795548;
+  color: #FFFFFF;
+}
+
+.form.brown {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #795548;
+    color: #FFFFFF;
+  }
+}
+
+.brown input[type=checkbox]:checked ~ .track {
+  background: #795548;
+  color: #FFFFFF;
+}
+
+.gray, .btn.border.gray:hover {
+  background: #9E9E9E;
+  color: #FFFFFF;
+}
+
+.pagination.gray li {
+  a:hover, .active {
+    background: #9E9E9E;
+    color: #FFFFFF;
+  }
+}
+
+.navbar.gray {
+  ul, .child, li a {
+    background: #9E9E9E;
+    color: #FFFFFF;
+  }
+}
+
+.menu.gray li a, .dropdown.gray .child li a {
+  background: #9E9E9E;
+  color: #FFFFFF;
+}
+
+.form.gray {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #9E9E9E;
+    color: #FFFFFF;
+  }
+}
+
+.gray input[type=checkbox]:checked ~ .track {
+  background: #9E9E9E;
+  color: #FFFFFF;
+}
+
+.silver, .btn.border.silver:hover {
+  background: #CCCCCC;
+  color: #444444;
+}
+
+.pagination.silver li {
+  a:hover, .active {
+    background: #CCCCCC;
+    color: #444444;
+  }
+}
+
+.navbar.silver {
+  ul, .child, li a {
+    background: #CCCCCC;
+    color: #444444;
+  }
+}
+
+.menu.silver li a, .dropdown.silver .child li a {
+  background: #CCCCCC;
+  color: #444444;
+}
+
+.form.silver {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #CCCCCC;
+    color: #444444;
+  }
+}
+
+.silver input[type=checkbox]:checked ~ .track {
+  background: #CCCCCC;
+  color: #444444;
+}
+
+.white, .btn.border.white:hover {
+  background: #FFFFFF;
+  color: #444444;
+}
+
+.pagination.white li {
+  a:hover, .active {
+    background: #FFFFFF;
+    color: #444444;
+  }
+}
+
+.navbar.white {
+  ul, .child, li a {
+    background: #FFFFFF;
+    color: #444444;
+  }
+}
+
+.menu.white li a, .dropdown.white .child li a {
+  background: #FFFFFF;
+  color: #444444;
+}
+
+.form.white {
+  .btn, input[type=checkbox]:checked ~ .track {
+    background: #FFFFFF;
+    color: #444444;
+  }
+}
+
+.white input[type=checkbox]:checked ~ .track {
+  background: #FFFFFF;
+  color: #444444;
+}
+
+.transparent {
+  background: transparent;
+  color: #444444;
+}
+
+/* __ border colors __ */
+
+.border.red {
+  background: transparent;
+  border-color: #F44336;
+  color: #F44336;
+}
+
+.filter.red {
+  background: transparent;
+  border-color: #F44336;
+  color: #F44336;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #F44336;
+      color: #F44336;
+    }
+  }
+}
+
+.pagination.red {
+  background: transparent;
+  border-color: #F44336;
+  color: #F44336;
+}
+
+.form {
+  &.border.red {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #F44336;
+      color: #F44336;
+    }
+  }
+
+  &.red {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #F44336;
+      color: #F44336;
+    }
+  }
+}
+
+.border.pink {
+  background: transparent;
+  border-color: #E91E63;
+  color: #E91E63;
+}
+
+.filter.pink {
+  background: transparent;
+  border-color: #E91E63;
+  color: #E91E63;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #E91E63;
+      color: #E91E63;
+    }
+  }
+}
+
+.pagination.pink {
+  background: transparent;
+  border-color: #E91E63;
+  color: #E91E63;
+}
+
+.form {
+  &.border.pink {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #E91E63;
+      color: #E91E63;
+    }
+  }
+
+  &.pink {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #E91E63;
+      color: #E91E63;
+    }
+  }
+}
+
+.border.purple {
+  background: transparent;
+  border-color: #673AB7;
+  color: #673AB7;
+}
+
+.filter.purple {
+  background: transparent;
+  border-color: #673AB7;
+  color: #673AB7;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #673AB7;
+      color: #673AB7;
+    }
+  }
+}
+
+.pagination.purple {
+  background: transparent;
+  border-color: #673AB7;
+  color: #673AB7;
+}
+
+.form {
+  &.border.purple {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #673AB7;
+      color: #673AB7;
+    }
+  }
+
+  &.purple {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #673AB7;
+      color: #673AB7;
+    }
+  }
+}
+
+.border.indigo {
+  background: transparent;
+  border-color: #3F51B5;
+  color: #3F51B5;
+}
+
+.filter.indigo {
+  background: transparent;
+  border-color: #3F51B5;
+  color: #3F51B5;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #3F51B5;
+      color: #3F51B5;
+    }
+  }
+}
+
+.pagination.indigo {
+  background: transparent;
+  border-color: #3F51B5;
+  color: #3F51B5;
+}
+
+.form {
+  &.border.indigo {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #3F51B5;
+      color: #3F51B5;
+    }
+  }
+
+  &.indigo {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #3F51B5;
+      color: #3F51B5;
+    }
+  }
+}
+
+.border.blue {
+  background: transparent;
+  border-color: #2196F3;
+  color: #2196F3;
+}
+
+.filter.blue {
+  background: transparent;
+  border-color: #2196F3;
+  color: #2196F3;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #2196F3;
+      color: #2196F3;
+    }
+  }
+}
+
+.pagination.blue {
+  background: transparent;
+  border-color: #2196F3;
+  color: #2196F3;
+}
+
+.form {
+  &.border.blue {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #2196F3;
+      color: #2196F3;
+    }
+  }
+
+  &.blue {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #2196F3;
+      color: #2196F3;
+    }
+  }
+}
+
+.border.light-blue {
+  background: transparent;
+  border-color: #03A9F4;
+  color: #03A9F4;
+}
+
+.filter.light-blue {
+  background: transparent;
+  border-color: #03A9F4;
+  color: #03A9F4;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #03A9F4;
+      color: #03A9F4;
+    }
+  }
+}
+
+.pagination.light-blue {
+  background: transparent;
+  border-color: #03A9F4;
+  color: #03A9F4;
+}
+
+.form {
+  &.border.light-blue {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #03A9F4;
+      color: #03A9F4;
+    }
+  }
+
+  &.light-blue {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #03A9F4;
+      color: #03A9F4;
+    }
+  }
+}
+
+.border.cyan {
+  background: transparent;
+  border-color: #00BCD4;
+  color: #00BCD4;
+}
+
+.filter.cyan {
+  background: transparent;
+  border-color: #00BCD4;
+  color: #00BCD4;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #00BCD4;
+      color: #00BCD4;
+    }
+  }
+}
+
+.pagination.cyan {
+  background: transparent;
+  border-color: #00BCD4;
+  color: #00BCD4;
+}
+
+.form {
+  &.border.cyan {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #00BCD4;
+      color: #00BCD4;
+    }
+  }
+
+  &.cyan {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #00BCD4;
+      color: #00BCD4;
+    }
+  }
+}
+
+.border.teal {
+  background: transparent;
+  border-color: #009688;
+  color: #009688;
+}
+
+.filter.teal {
+  background: transparent;
+  border-color: #009688;
+  color: #009688;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #009688;
+      color: #009688;
+    }
+  }
+}
+
+.pagination.teal {
+  background: transparent;
+  border-color: #009688;
+  color: #009688;
+}
+
+.form {
+  &.border.teal {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #009688;
+      color: #009688;
+    }
+  }
+
+  &.teal {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #009688;
+      color: #009688;
+    }
+  }
+}
+
+.border.green {
+  background: transparent;
+  border-color: #4CAF50;
+  color: #4CAF50;
+}
+
+.filter.green {
+  background: transparent;
+  border-color: #4CAF50;
+  color: #4CAF50;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #4CAF50;
+      color: #4CAF50;
+    }
+  }
+}
+
+.pagination.green {
+  background: transparent;
+  border-color: #4CAF50;
+  color: #4CAF50;
+}
+
+.form {
+  &.border.green {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #4CAF50;
+      color: #4CAF50;
+    }
+  }
+
+  &.green {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #4CAF50;
+      color: #4CAF50;
+    }
+  }
+}
+
+.border.light-green {
+  background: transparent;
+  border-color: #8BC34A;
+  color: #8BC34A;
+}
+
+.filter.light-green {
+  background: transparent;
+  border-color: #8BC34A;
+  color: #8BC34A;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #8BC34A;
+      color: #8BC34A;
+    }
+  }
+}
+
+.pagination.light-green {
+  background: transparent;
+  border-color: #8BC34A;
+  color: #8BC34A;
+}
+
+.form {
+  &.border.light-green {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #8BC34A;
+      color: #8BC34A;
+    }
+  }
+
+  &.light-green {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #8BC34A;
+      color: #8BC34A;
+    }
+  }
+}
+
+.border.yellow {
+  background: transparent;
+  border-color: #FFC107;
+  color: #FFC107;
+}
+
+.filter.yellow {
+  background: transparent;
+  border-color: #FFC107;
+  color: #FFC107;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #FFC107;
+      color: #FFC107;
+    }
+  }
+}
+
+.pagination.yellow {
+  background: transparent;
+  border-color: #FFC107;
+  color: #FFC107;
+}
+
+.form {
+  &.border.yellow {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #FFC107;
+      color: #FFC107;
+    }
+  }
+
+  &.yellow {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #FFC107;
+      color: #FFC107;
+    }
+  }
+}
+
+.border.light-yellow {
+  background: transparent;
+  border-color: #FFEB3B;
+  color: #FFEB3B;
+}
+
+.filter.light-yellow {
+  background: transparent;
+  border-color: #FFEB3B;
+  color: #FFEB3B;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #FFEB3B;
+      color: #FFEB3B;
+    }
+  }
+}
+
+.pagination.light-yellow {
+  background: transparent;
+  border-color: #FFEB3B;
+  color: #FFEB3B;
+}
+
+.form {
+  &.border.light-yellow {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #FFEB3B;
+      color: #FFEB3B;
+    }
+  }
+
+  &.light-yellow {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #FFEB3B;
+      color: #FFEB3B;
+    }
+  }
+}
+
+.border.orange {
+  background: transparent;
+  border-color: #FF9800;
+  color: #FF9800;
+}
+
+.filter.orange {
+  background: transparent;
+  border-color: #FF9800;
+  color: #FF9800;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #FF9800;
+      color: #FF9800;
+    }
+  }
+}
+
+.pagination.orange {
+  background: transparent;
+  border-color: #FF9800;
+  color: #FF9800;
+}
+
+.form {
+  &.border.orange {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #FF9800;
+      color: #FF9800;
+    }
+  }
+
+  &.orange {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #FF9800;
+      color: #FF9800;
+    }
+  }
+}
+
+.border.orange-red {
+  background: transparent;
+  border-color: #FF5722;
+  color: #FF5722;
+}
+
+.filter.orange-red {
+  background: transparent;
+  border-color: #FF5722;
+  color: #FF5722;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #FF5722;
+      color: #FF5722;
+    }
+  }
+}
+
+.pagination.orange-red {
+  background: transparent;
+  border-color: #FF5722;
+  color: #FF5722;
+}
+
+.form {
+  &.border.orange-red {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #FF5722;
+      color: #FF5722;
+    }
+  }
+
+  &.orange-red {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #FF5722;
+      color: #FF5722;
+    }
+  }
+}
+
+.border.black {
+  background: transparent;
+  border-color: #000000;
+  color: #000000;
+}
+
+.filter.black {
+  background: transparent;
+  border-color: #000000;
+  color: #000000;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #000000;
+      color: #000000;
+    }
+  }
+}
+
+.pagination.black {
+  background: transparent;
+  border-color: #000000;
+  color: #000000;
+}
+
+.form {
+  &.border.black {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #000000;
+      color: #000000;
+    }
+  }
+
+  &.black {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #000000;
+      color: #000000;
+    }
+  }
+}
+
+.border.brown {
+  background: transparent;
+  border-color: #795548;
+  color: #795548;
+}
+
+.filter.brown {
+  background: transparent;
+  border-color: #795548;
+  color: #795548;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #795548;
+      color: #795548;
+    }
+  }
+}
+
+.pagination.brown {
+  background: transparent;
+  border-color: #795548;
+  color: #795548;
+}
+
+.form {
+  &.border.brown {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #795548;
+      color: #795548;
+    }
+  }
+
+  &.brown {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #795548;
+      color: #795548;
+    }
+  }
+}
+
+.border.gray {
+  background: transparent;
+  border-color: #9E9E9E;
+  color: #9E9E9E;
+}
+
+.filter.gray {
+  background: transparent;
+  border-color: #9E9E9E;
+  color: #9E9E9E;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #9E9E9E;
+      color: #9E9E9E;
+    }
+  }
+}
+
+.pagination.gray {
+  background: transparent;
+  border-color: #9E9E9E;
+  color: #9E9E9E;
+}
+
+.form {
+  &.border.gray {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #9E9E9E;
+      color: #9E9E9E;
+    }
+  }
+
+  &.gray {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #9E9E9E;
+      color: #9E9E9E;
+    }
+  }
+}
+
+.border.silver {
+  background: transparent;
+  border-color: #CCCCCC;
+  color: #CCCCCC;
+}
+
+.filter.silver {
+  background: transparent;
+  border-color: #CCCCCC;
+  color: #CCCCCC;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #CCCCCC;
+      color: #CCCCCC;
+    }
+  }
+}
+
+.pagination.silver {
+  background: transparent;
+  border-color: #CCCCCC;
+  color: #CCCCCC;
+}
+
+.form {
+  &.border.silver {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #CCCCCC;
+      color: #CCCCCC;
+    }
+  }
+
+  &.silver {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #CCCCCC;
+      color: #CCCCCC;
+    }
+  }
+}
+
+.border.white {
+  background: transparent;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.filter.white {
+  background: transparent;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.pagination.white {
+  background: transparent;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.form {
+  &.border.white {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+    }
+  }
+
+  &.white {
+    input, textarea, input, textarea, select, input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.border.transparent {
+  background: transparent;
+  border-color: transparent;
+  color: #FFFFFF;
+}
+
+/* __ filter styles __ */
+
+.filter.white li {
+  a {
+    color: rgba(255, 255, 255, 0.8);
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .active {
+    color: #fff;
+  }
+}
+
+/* __ .form label & checkbox modifiers __ */
+
+.form.red label {
+  color: #F44336;
+
+  i:before {
+    color: #F44336;
+  }
+}
+
+.icon-left.red i, .icon-right.red i {
+  color: #F44336;
+}
+
+.form.pink label {
+  color: #E91E63;
+
+  i:before {
+    color: #E91E63;
+  }
+}
+
+.icon-left.pink i, .icon-right.pink i {
+  color: #E91E63;
+}
+
+.form.purple label {
+  color: #673AB7;
+
+  i:before {
+    color: #673AB7;
+  }
+}
+
+.icon-left.purple i, .icon-right.purple i {
+  color: #673AB7;
+}
+
+.form.indigo label {
+  color: #3F51B5;
+
+  i:before {
+    color: #3F51B5;
+  }
+}
+
+.icon-left.indigo i, .icon-right.indigo i {
+  color: #3F51B5;
+}
+
+.form.blue label {
+  color: #2196F3;
+
+  i:before {
+    color: #2196F3;
+  }
+}
+
+.icon-left.blue i, .icon-right.blue i {
+  color: #2196F3;
+}
+
+.form.light-blue {
+  color: #03A9F4;
+
+  label i:before {
+    color: #03A9F4;
+  }
+}
+
+.icon-left.light-blue i, .icon-right.light-blue i {
+  color: #03A9F4;
+}
+
+.form.cyan label {
+  color: #00BCD4;
+
+  i:before {
+    color: #00BCD4;
+  }
+}
+
+.icon-left.cyan i, .icon-right.cyan i {
+  color: #00BCD4;
+}
+
+.form.teal label {
+  color: #009688;
+
+  i:before {
+    color: #009688;
+  }
+}
+
+.icon-left.teal i, .icon-right.teal i {
+  color: #009688;
+}
+
+.form.green label {
+  color: #4CAF50;
+
+  i:before {
+    color: #4CAF50;
+  }
+}
+
+.icon-left.green i, .icon-right.green i {
+  color: #4CAF50;
+}
+
+.form.light-green {
+  color: #8BC34A;
+
+  label i:before {
+    color: #8BC34A;
+  }
+}
+
+.icon-left.light-green i, .icon-right.light-green i {
+  color: #8BC34A;
+}
+
+.form.yellow label {
+  color: #FFC107;
+
+  i:before {
+    color: #FFC107;
+  }
+}
+
+.icon-left.yellow i, .icon-right.yellow i {
+  color: #FFC107;
+}
+
+.form.light-yellow label {
+  color: #FFEB3B;
+
+  i:before {
+    color: #FFEB3B;
+  }
+}
+
+.icon-left.light-yellow i, .icon-right.light-yellow i {
+  color: #FFEB3B;
+}
+
+.form.orange label {
+  color: #FF9800;
+
+  i:before {
+    color: #FF9800;
+  }
+}
+
+.icon-left.orange i, .icon-right.orange i {
+  color: #FF9800;
+}
+
+.form.orange-red label {
+  color: #FF5722;
+
+  i:before {
+    color: #FF5722;
+  }
+}
+
+.icon-left.orange-red i, .icon-right.orange-red i {
+  color: #FF5722;
+}
+
+.form {
+  &.black label {
+    color: #000000;
+
+    i:before {
+      color: #000000;
+    }
+  }
+
+  &.brown label {
+    color: #795548;
+
+    i:before {
+      color: #795548;
+    }
+  }
+}
+
+.icon-left.brown i, .icon-right.brown i {
+  color: #795548;
+}
+
+.form.gray label {
+  color: #9E9E9E;
+
+  i:before {
+    color: #9E9E9E;
+  }
+}
+
+.icon-left.gray i, .icon-right.gray i {
+  color: #9E9E9E;
+}
+
+.form.silver label {
+  color: #CCCCCC;
+
+  i:before {
+    color: #CCCCCC;
+  }
+}
+
+.icon-left.silver i, .icon-right.silver i {
+  color: #CCCCCC;
+}
+
+.form.white label {
+  color: #FFFFFF;
+
+  i:before {
+    color: #FFFFFF;
+  }
+}
+
+.icon-left.white i, .icon-right.white i {
+  color: #FFFFFF;
+}
+
+/* __ text modifiers __ */
+
+.text-red, .hover-text-red:hover, .focus-text-red:focus, .text-red i:before, .hover-text-red:hover i:before, .href-text-red a, .hover-href-text-red a:hover {
+  color: #F44336 !important;
+}
+
+.text-pink, .hover-text-pink:hover, .focus-text-pink:focus, .text-pink i:before, .hover-text-pink:hover i:before, .href-text-pink a, .hover-href-text-pink a:hover {
+  color: #E91E63 !important;
+}
+
+.text-purple, .hover-text-purple:hover, .focus-text-purple:focus, .text-purple i:before, .hover-text-purple:hover i:before, .href-text-purple a, .hover-href-text-purple a:hover {
+  color: #673AB7 !important;
+}
+
+.text-indigo, .hover-text-indigo:hover, .focus-text-indigo:focus, .text-indigo i:before, .hover-text-indigo:hover i:before, .href-text-indigo a, .hover-href-text-indigo a:hover {
+  color: #3F51B5 !important;
+}
+
+.text-blue, .hover-text-blue:hover, .focus-text-blue:focus, .text-blue i:before, .hover-text-blue:hover i:before, .href-text-blue a, .hover-href-text-blue a:hover {
+  color: #2196F3 !important;
+}
+
+.text-light-blue, .hover-text-light-blue:hover, .focus-text-light-blue:focus, .text-light-blue i:before, .hover-text-light-blue:hover i:before, .href-text-light-blue a, .hover-href-text-light-blue a:hover {
+  color: #03A9F4 !important;
+}
+
+.text-cyan, .hover-text-cyan:hover, .focus-text-cyan:focus, .text-cyan i:before, .hover-text-cyan:hover i:before, .href-text-cyan a, .hover-href-text-cyan a:hover {
+  color: #00BCD4 !important;
+}
+
+.text-teal, .hover-text-teal:hover, .focus-text-teal:focus, .text-teal i:before, .hover-text-teal:hover i:before, .href-text-teal a, .hover-href-text-teal a:hover {
+  color: #009688 !important;
+}
+
+.text-green, .hover-text-green:hover, .focus-text-green:focus, .text-green i:before, .hover-text-green:hover i:before, .href-text-green a, .hover-href-text-green a:hover {
+  color: #4CAF50 !important;
+}
+
+.text-light-green, .hover-text-light-green:hover, .focus-text-light-green:focus, .text-light-green i:before, .hover-text-light-green:hover i:before, .href-text-light-green a, .hover-href-text-light-green a:hover {
+  color: #8BC34A !important;
+}
+
+.text-yellow, .hover-text-yellow:hover, .focus-text-yellow:focus, .text-yellow i:before, .hover-text-yellow:hover i:before, .href-text-yellow a, .hover-href-text-yellow a:hover {
+  color: #FFC107 !important;
+}
+
+.text-light-yellow, .hover-text-light-yellow:hover, .focus-text-light-yellow:focus, .text-light-yellow i:before, .hover-text-light-yellow:hover i:before, .href-text-light-yellow a, .hover-href-text-light-yellow a:hover {
+  color: #FFEB3B !important;
+}
+
+.text-orange, .hover-text-orange:hover, .focus-text-orange:focus, .text-orange i:before, .hover-text-orange:hover i:before, .href-text-orange a, .hover-href-text-orange a:hover {
+  color: #FF9800 !important;
+}
+
+.text-orange-red, .hover-text-orange-red:hover, .focus-text-orange-red:focus, .text-orange-red i:before, .hover-text-orange-red:hover i:before, .href-text-orange-red a, .hover-href-text-orange-red a:hover {
+  color: #FF5722 !important;
+}
+
+.text-black, .hover-text-black:hover, .focus-text-black:focus, .text-black i:before, .hover-text-black:hover i:before, .href-text-black a, .hover-href-text-black a:hover {
+  color: #000000 !important;
+}
+
+.text-brown, .hover-text-brown:hover, .focus-text-brown:focus, .text-brown i:before, .hover-text-brown:hover i:before, .href-text-brown a, .hover-href-text-brown a:hover {
+  color: #795548 !important;
+}
+
+.text-gray, .hover-text-gray:hover, .focus-text-gray:focus, .text-gray i:before, .hover-text-gray:hover i:before, .href-text-gray a, .hover-href-text-gray a:hover {
+  color: #9E9E9E !important;
+}
+
+.text-silver, .hover-text-silver:hover, .focus-text-silver:focus, .text-silver i:before, .hover-text-silver:hover i:before, .href-text-silver a, .hover-href-text-silver a:hover {
+  color: #CCCCCC !important;
+}
+
+.text-white, .hover-text-white:hover, .focus-text-white:focus, .text-white i:before, .hover-text-white:hover i:before, .href-text-white a, .hover-href-text-white a:hover {
+  color: #FFFFFF !important;
+}
+
+/* __ borders modefiers __ */
+
+.border-red, .hover-border-red:hover, .focus-border-red:focus {
+  border-color: #F44336 !important;
+}
+
+.border-red {
+  td, th {
+    border-color: #F44336 !important;
+  }
+}
+
+.border-pink, .hover-border-pink:hover, .focus-border-pink:focus {
+  border-color: #E91E63 !important;
+}
+
+.border-pink {
+  td, th {
+    border-color: #E91E63 !important;
+  }
+}
+
+.border-purple, .hover-border-purple:hover, .focus-border-purple:focus {
+  border-color: #673AB7 !important;
+}
+
+.border-purple {
+  td, th {
+    border-color: #673AB7 !important;
+  }
+}
+
+.border-indigo, .hover-border-indigo:hover, .focus-border-indigo:focus {
+  border-color: #3F51B5 !important;
+}
+
+.border-indigo {
+  td, th {
+    border-color: #3F51B5 !important;
+  }
+}
+
+.border-blue, .hover-border-blue:hover, .focus-border-blue:focus {
+  border-color: #2196F3 !important;
+}
+
+.border-blue {
+  td, th {
+    border-color: #2196F3 !important;
+  }
+}
+
+.border-light-blue, .hover-border-light-blue:hover, .focus-border-light-blue:focus {
+  border-color: #03A9F4 !important;
+}
+
+.border-light-blue {
+  td, th {
+    border-color: #03A9F4 !important;
+  }
+}
+
+.border-cyan, .hover-border-cyan:hover, .focus-border-cyan:focus {
+  border-color: #00BCD4 !important;
+}
+
+.border-cyan {
+  td, th {
+    border-color: #00BCD4 !important;
+  }
+}
+
+.border-teal, .hover-border-teal:hover, .focus-border-teal:focus {
+  border-color: #009688 !important;
+}
+
+.border-teal {
+  td, th {
+    border-color: #009688 !important;
+  }
+}
+
+.border-green, .hover-border-green:hover, .focus-border-green:focus {
+  border-color: #4CAF50 !important;
+}
+
+.border-green {
+  td, th {
+    border-color: #4CAF50 !important;
+  }
+}
+
+.border-light-green, .hover-border-light-green:hover, .focus-border-light-green:focus {
+  border-color: #8BC34A !important;
+}
+
+.border-light-green {
+  td, th {
+    border-color: #8BC34A !important;
+  }
+}
+
+.border-yellow, .hover-border-yellow:hover, .focus-border-yellow:focus {
+  border-color: #FFC107 !important;
+}
+
+.border-yellow {
+  td, th {
+    border-color: #FFC107 !important;
+  }
+}
+
+.border-light-yellow, .hover-border-light-yellow:hover, .focus-border-light-yellow:focus {
+  border-color: #FFEB3B !important;
+}
+
+.border-light-yellow {
+  td, th {
+    border-color: #FFEB3B !important;
+  }
+}
+
+.border-orange, .hover-border-orange:hover, .focus-border-orange:focus {
+  border-color: #FF9800 !important;
+}
+
+.border-orange {
+  td, th {
+    border-color: #FF9800 !important;
+  }
+}
+
+.border-orange-red, .hover-border-orange-red:hover, .focus-border-orange-red:focus {
+  border-color: #FF5722 !important;
+}
+
+.border-orange-red {
+  td, th {
+    border-color: #FF5722 !important;
+  }
+}
+
+.border-black, .hover-border-black:hover, .focus-border-black:focus {
+  border-color: #000000 !important;
+}
+
+.border-black {
+  td, th {
+    border-color: #000000 !important;
+  }
+}
+
+.border-brown, .hover-border-brown:hover, .focus-border-brown:focus {
+  border-color: #795548 !important;
+}
+
+.border-brown {
+  td, th {
+    border-color: #795548 !important;
+  }
+}
+
+.border-gray, .hover-border-gray:hover, .focus-border-gray:focus {
+  border-color: #9E9E9E !important;
+}
+
+.border-gray {
+  td, th {
+    border-color: #9E9E9E !important;
+  }
+}
+
+.border-silver, .hover-border-silver:hover, .focus-border-silver:focus {
+  border-color: #CCCCCC !important;
+}
+
+.border-silver {
+  td, th {
+    border-color: #CCCCCC !important;
+  }
+}
+
+.border-white, .hover-border-white:hover, .focus-border-white:focus {
+  border-color: #FFFFFF !important;
+}
+
+.border-white {
+  td, th {
+    border-color: #FFFFFF !important;
+  }
+}
+
+.border-transparent, .hover-border-transparent:hover, .focus-border-transparent:focus {
+  border-color: transparent !important;
+}
+
+.form.border-transparent {
+  input, select, textarea {
+    border-color: transparent !important;
+  }
+}
+
+.border-transparent {
+  td, th {
+    border-color: transparent !important;
+  }
+}
+
+/* __ fill modefiers __ */
+
+.fill-red, .hover-fill-red:hover, .focus-fill-red:focus {
+  background-color: #F44336 !important;
+}
+
+.fill-pink, .hover-fill-pink:hover, .focus-fill-pink:focus {
+  background-color: #E91E63 !important;
+}
+
+.fill-purple, .hover-fill-purple:hover, .focus-fill-purple:focus {
+  background-color: #673AB7 !important;
+}
+
+.fill-indigo, .hover-fill-indigo:hover, .focus-fill-indigo:focus {
+  background-color: #3F51B5 !important;
+}
+
+.fill-blue, .hover-fill-blue:hover, .focus-fill-blue:focus {
+  background-color: #2196F3 !important;
+}
+
+.fill-light-blue, .hover-fill-light-blue:hover, .focus-fill-light-blue:focus {
+  background-color: #03A9F4 !important;
+}
+
+.fill-cyan, .hover-fill-cyan:hover, .focus-fill-cyan:focus {
+  background-color: #00BCD4 !important;
+}
+
+.fill-teal, .hover-fill-teal:hover, .focus-fill-teal:focus {
+  background-color: #009688 !important;
+}
+
+.fill-green, .hover-fill-green:hover, .focus-fill-green:focus {
+  background-color: #4CAF50 !important;
+}
+
+.fill-light-green, .hover-fill-light-green:hover, .focus-fill-light-green:focus {
+  background-color: #8BC34A !important;
+}
+
+.fill-yellow, .hover-fill-yellow:hover, .focus-fill-yellow:focus {
+  background-color: #FFC107 !important;
+}
+
+.fill-light-yellow, .hover-fill-light-yellow:hover, .focus-fill-light-yellow:focus {
+  background-color: #FFEB3B !important;
+}
+
+.fill-orange, .hover-fill-orange:hover, .focus-fill-orange:focus {
+  background-color: #FF9800 !important;
+}
+
+.fill-orange-red, .hover-fill-orange-red:hover, .focus-fill-orange-red:focus {
+  background-color: #FF5722 !important;
+}
+
+.fill-black, .hover-fill-black:hover, .focus-fill-black:focus {
+  background-color: #000000 !important;
+}
+
+.fill-brown, .hover-fill-brown:hover, .focus-fill-brown:focus {
+  background-color: #795548 !important;
+}
+
+.fill-gray, .hover-fill-gray:hover, .focus-fill-gray:focus {
+  background-color: #9E9E9E !important;
+}
+
+.fill-silver, .hover-fill-silver:hover, .focus-fill-silver:focus {
+  background-color: #CCCCCC !important;
+}
+
+.fill-white, .hover-fill-white:hover, .focus-fill-white:focus {
+  background-color: #FFFFFF !important;
+}
+
+.fill-transparent, .hover-fill-transparent:hover, .focus-fill-transparent:focus {
+  background-color: transparent !important;
+}
+
+.fill-darker, .hover-fill-darker:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)) !important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#26000000)" !important;
+}
+
+.fill-lighter, .hover-fill-lighter:hover {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)) !important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFFFF, endColorstr=#EEEEEEEE)" !important;
+}
+
+.hover-fill-disable:hover {
+  background-image: none !important;
+}
+
+/* __ btn color fix for colored elements __ */
+
+.btn {
+  a {
+    color: #fff;
+  }
+
+  &.white a {
+    color: #555;
+  }
+}
+
+/* __ navbar fix __ */
+
+.navbar .filter.white li {
+  a:hover, .active {
+    color: #fff;
+  }
+}
+
+/* __ default colors __ */
+
+.success {
+  background: #2AA583;
+  color: #FFFFFF;
+}
+
+.pagination.success li {
+  a:hover, .active {
+    background: #2AA583;
+    color: #FFFFFF;
+  }
+}
+
+.info {
+  background: #15a3ff;
+  color: #FFFFFF;
+}
+
+.pagination.info li {
+  a:hover, .active {
+    background: #15a3ff;
+    color: #FFFFFF;
+  }
+}
+
+.warning {
+  background: #F3AB44;
+  color: #FFFFFF;
+}
+
+.pagination.warning li {
+  a:hover, .active {
+    background: #F3AB44;
+    color: #FFFFFF;
+  }
+}
+
+.danger {
+  background: #EA4335;
+  color: #FFFFFF;
+}
+
+.pagination.danger li {
+  a:hover, .active {
+    background: #EA4335;
+    color: #FFFFFF;
+  }
+}
+
+/* __ default border colors __ */
+
+.border.success {
+  background: transparent;
+  border-color: #2AA583;
+  color: #2AA583;
+}
+
+.filter.success {
+  background: transparent;
+  border-color: #2AA583;
+  color: #2AA583;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #2AA583;
+      color: #2AA583;
+    }
+  }
+}
+
+.pagination.success {
+  background: transparent;
+  border-color: #2AA583;
+  color: #2AA583;
+}
+
+.form {
+  &.border.success {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #2AA583;
+      color: #2AA583;
+    }
+  }
+
+  &.success {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #2AA583;
+      color: #2AA583;
+    }
+  }
+}
+
+.text-success, .hover-text-success:hover, .focus-text-success:focus {
+  color: #2AA583 !important;
+}
+
+.fill-success, .hover-fill-success:hover, .focus-fill-success:focus {
+  background-color: #2AA583 !important;
+}
+
+.border-success, .hover-border-success:hover, .focus-border-success:focus {
+  border-color: #2AA583 !important;
+}
+
+.border-success {
+  td, th {
+    border-color: #2AA583 !important;
+  }
+}
+
+.border.info {
+  background: transparent;
+  border-color: #15a3ff;
+  color: #15a3ff;
+}
+
+.filter.info {
+  background: transparent;
+  border-color: #15a3ff;
+  color: #15a3ff;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #15a3ff;
+      color: #15a3ff;
+    }
+  }
+}
+
+.pagination.info {
+  background: transparent;
+  border-color: #15a3ff;
+  color: #15a3ff;
+}
+
+.form {
+  &.border.info {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #15a3ff;
+      color: #15a3ff;
+    }
+  }
+
+  &.info {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #15a3ff;
+      color: #15a3ff;
+    }
+  }
+}
+
+.text-info, .hover-text-info:hover, .focus-text-info:focus {
+  color: #15a3ff !important;
+}
+
+.fill-info, .hover-fill-info:hover, .focus-fill-info:focus {
+  background-color: #15a3ff !important;
+}
+
+.border-info, .hover-border-info:hover, .focus-border-info:focus {
+  border-color: #15a3ff !important;
+}
+
+.border-info {
+  td, th {
+    border-color: #15a3ff !important;
+  }
+}
+
+.border.warning {
+  background: transparent;
+  border-color: #F3AB44;
+  color: #F3AB44;
+}
+
+.filter.warning {
+  background: transparent;
+  border-color: #F3AB44;
+  color: #F3AB44;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #F3AB44;
+      color: #F3AB44;
+    }
+  }
+}
+
+.pagination.warning {
+  background: transparent;
+  border-color: #F3AB44;
+  color: #F3AB44;
+}
+
+.form {
+  &.border.warning {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #F3AB44;
+      color: #F3AB44;
+    }
+  }
+
+  &.warning {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #F3AB44;
+      color: #F3AB44;
+    }
+  }
+}
+
+.text-warning, .hover-text-warning:hover, .focus-text-warning:focus {
+  color: #F3AB44 !important;
+}
+
+.fill-warning, .hover-fill-warning:hover, .focus-fill-warning:focus {
+  background-color: #F3AB44 !important;
+}
+
+.border-warning, .hover-border-warning:hover, .focus-border-warning:focus {
+  border-color: #F3AB44 !important;
+}
+
+.border-warning {
+  td, th {
+    border-color: #F3AB44 !important;
+  }
+}
+
+.border.danger {
+  background: transparent;
+  border-color: #EA4335;
+  color: #EA4335;
+}
+
+.filter.danger {
+  background: transparent;
+  border-color: #EA4335;
+  color: #EA4335;
+
+  li {
+    a:hover, .active {
+      background: transparent;
+      border-color: #EA4335;
+      color: #EA4335;
+    }
+  }
+}
+
+.pagination.danger {
+  background: transparent;
+  border-color: #EA4335;
+  color: #EA4335;
+}
+
+.form {
+  &.border.danger {
+    .btn, select, input, textarea {
+      background: transparent;
+      border-color: #EA4335;
+      color: #EA4335;
+    }
+  }
+
+  &.danger {
+    input:hover, textarea:hover, input:focus, textarea:focus, select:hover {
+      background: transparent;
+      border-color: #EA4335;
+      color: #EA4335;
+    }
+  }
+}
+
+.text-danger, .hover-text-danger:hover, .focus-text-danger:focus {
+  color: #EA4335 !important;
+}
+
+.fill-danger, .hover-fill-danger:hover, .focus-fill-danger:focus {
+  background-color: #EA4335 !important;
+}
+
+.border-danger, .hover-border-danger:hover, .focus-border-danger:focus {
+  border-color: #EA4335 !important;
+}
+
+.border-danger {
+  td, th {
+    border-color: #EA4335 !important;
+  }
+}
+
+/* __ table extra borders  __*/
+
+.border-light {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+
+  td, th {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+  }
+}
+
+.border-dark {
+  border-color: rgba(0, 0, 0, 0.3) !important;
+
+  td, th {
+    border-color: rgba(0, 0, 0, 0.3) !important;
+  }
+}
