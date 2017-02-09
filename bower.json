@@ -23,5 +23,6 @@
     "Alan Museljich"
   ],
   "license": "MIT",
-  "homepage": "http://decorator.io/modulr"
+  "homepage": "http://decorator.io/modulr",
+  "private": true,
 }
