@@ -718,7 +718,7 @@ select[multiple=multiple].l {
   }
 
   .btn, button {
-    height: 42px;
+    min-height: 42px;
     font-size: 16px;
     line-height: inherit;
   }
